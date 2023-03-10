@@ -4,7 +4,7 @@
   padding-top: 30px;
   padding-left: 80px;
   padding-right: 80px;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
   background-color: #fff;
   background-image: url(../images/background_menu.svg);
   background-repeat: no-repeat;
@@ -39,23 +39,47 @@
 }
 
 .menu__cards {
+  margin: 0;
+  padding: 0;
   display: flex;
-  width: 540px;
+  justify-content: space-evenly;
+  gap: 100px;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .card {
-  display: flex;
+  margin: auto;
+  padding: auto;
 }
 
 .card__title {
-  margin: auto;
+  margin: 0;
+  padding: 0;
   margin-bottom: 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .card__list-item {
-  margin: auto;
+  margin: 0;
+  padding: 0;
+  width: 540px;
   margin-bottom: 16px;
+  list-style-type: none;
+  display: flex;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .card__list-divider {
+  flex-grow: 1;
+  border-bottom: 1px solid black;
 }
