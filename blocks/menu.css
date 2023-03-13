@@ -47,8 +47,8 @@
 }
 
 .card {
-  margin: auto;
-  padding: auto;
+  margin: 0;
+  padding: 0;
 }
 
 .card__title {
@@ -74,6 +74,10 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+}
+
+.card__list-item:last-of-type {
+  margin-bottom: 0;
 }
 
 .card__list-divider {
