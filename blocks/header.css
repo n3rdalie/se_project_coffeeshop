@@ -46,6 +46,10 @@
   line-height: 20px;
 }
 
+.nav__link:hover {
+  color: #2f80ed;
+}
+
 .header__title {
   margin: 0;
   max-width: 729px;

@@ -90,6 +90,11 @@
   height: 60px;
 }
 
+.form__button:hover {
+  opacity: 70%;
+  transition: 1s;
+}
+
 .form__checkbox {
   margin: 0;
   padding: 0;
