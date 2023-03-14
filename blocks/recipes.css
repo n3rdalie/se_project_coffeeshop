@@ -1,5 +1,5 @@
 .recipes {
-  padding-top: 30px;
+  padding-top: 10px;
   padding-left: 80px;
   padding-right: 80px;
   padding-bottom: 215px;
@@ -44,11 +44,13 @@
 .recipes__iframe {
   width: 480px;
   height: 273px;
+  border: none;
 }
 
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
+  margin: 0;
   margin-top: 24px;
   color: #fff;
   font-family: "Inter";

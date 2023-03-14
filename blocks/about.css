@@ -1,4 +1,4 @@
-@keyframes pulsate {
+@keyframes pulse {
   from {
     transform: scale(0.5);
     opacity: 1;
@@ -46,7 +46,7 @@
 
 .about__paragraph {
   margin: 0;
-  margin-top: 20px;
+  margin-bottom: 20px;
   color: #fff;
   font-family: "Noto Serif";
   font-style: normal;
@@ -66,5 +66,5 @@
 }
 
 .about__circle_animation_blurred {
-  animation: pulsate 1.3s ease-in-out infinite;
+  animation: pulse 1.3s ease-in-out infinite;
 }

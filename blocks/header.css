@@ -7,6 +7,7 @@
   padding-right: 80px;
   background-color: #fff;
   background-image: url(../images/background_header.svg);
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   position: relative;
@@ -34,6 +35,7 @@
 }
 
 .header__description {
+  margin: 0;
   max-width: 683px;
   font-family: "Noto Serif";
   font-style: normal;

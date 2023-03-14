@@ -6,7 +6,7 @@
 .nav__link {
   color: #000;
   text-decoration: none;
-  font-weight: bold;
+  transition: 1s;
 }
 
 .nav__links {
@@ -15,8 +15,6 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  bottom: 30px;
-  right: 80px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -24,6 +22,6 @@
   line-height: 20px;
 }
 
-.nav__links:hover {
+.nav__link:hover {
   color: #2f80ed;
 }
